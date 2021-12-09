@@ -7,7 +7,6 @@ public class Spiel extends Leihwahre {
     public Spiel(String titel, String nummer, boolean vollstaendigkeit) {
         super(titel, nummer);
         setVollständigkeit(vollstaendigkeit);
-        //TODO Auto-generated constructor stub
     }
 
     

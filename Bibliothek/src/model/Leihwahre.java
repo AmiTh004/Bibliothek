@@ -4,6 +4,7 @@ public abstract class Leihwahre {
 
     String _titel;
     String _nummer;
+    // Status - verliehen oder nicht
     boolean _vorhanden;
 
     public Leihwahre(String titel, String nummer){
@@ -12,6 +13,7 @@ public abstract class Leihwahre {
         setVorhanden(true);
     }
 
+    // Abstrakte Methode -> Polymorphie
     public abstract String ausleihen();
 
     //Überprüfen ob der Titel vorhanden ist und vorhanden auf true schalten -> sonst Fehlermeldung

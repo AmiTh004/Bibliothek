@@ -8,7 +8,6 @@ public class Buch extends Leihwahre {
     public Buch(String titel, String nummer, String autor) {
         super(titel, nummer);
         setAutor(autor);
-        //TODO Auto-generated constructor stub
     }
 
     public String ausleihen() {
