@@ -24,8 +24,8 @@ public class Spiel extends Leihwahre {
     // Wenn das Spiel vollständig ist, kann es ausgeliehen werden.
     public String ausleihen() {
         if(_vorhanden) {
-            setVorhanden(false);;
             if (_vollstaendigkeit = true) {
+                setVorhanden(false);
                 return getTitel()+ " "+ "kann ausgeliehen werden";
             } else {
                 return "erst Vollständigkeit prüfen!";
